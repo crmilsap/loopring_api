@@ -2,7 +2,6 @@ import websocket
 import requests
 import json
 from datetime import datetime
-import websocket
 from dotenv import load_dotenv
 import os
 
