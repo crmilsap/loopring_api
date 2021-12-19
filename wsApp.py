@@ -3,8 +3,12 @@ import requests
 import json
 from datetime import datetime
 import websocket
+from dotenv import load_dotenv
+import os
 
-apiKey = '5A6IeTqEh0kUURlDJXO0De3O6buEQfkxoNPHa6Lirdoo6Tk7CQwxiBsG9y5gWM2U'
+load_dotenv()
+
+apiKey = os.environ.get('API_KEY')
 
 
 def getWSApiKey():
