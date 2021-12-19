@@ -57,7 +57,7 @@ def on_open(ws):
             {
                 "topic": "candlestick",
                 "market": "LRC-ETH",
-                "interval": "15min"
+                "interval": "1min"
             }
         ]
     }
